@@ -61,15 +61,15 @@ padding = 0
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = xos4 Terminus:pixelsize=15;2
+font-0 = terminus-font:pixelsize=15;2
 font-1 = unifont:fontformat=truetype:size=20:antialias=false;1
 font-2 = siji:pixelsize=15;1
 font-3 = siji:pixelsize=13;1
+font-4 = Noto Sans CJK JP:pixelsize=12;2
 
-modules-left = bspwm i3 spotify
+modules-left = i3 spotify
 modules-center = date
-;modules-right = filesystem xbacklight alsa pulseaudio xkeyboard memory cpu wlan eth battery temperature powermenu
-modules-right = wlan battery powermenu
+modules-right = wlan battery powermenu bspwm
 
 tray-position = right
 tray-padding = 2
